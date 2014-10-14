@@ -1,0 +1,36 @@
+{
+  "name": "livedb-knex",
+  "version": "0.0.1",
+  "description": "Knex SQL adapter for livedb",
+  "main": "index.js",
+  "peerDependencies": {
+    "knex": "^0.7.3"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "livedb": "^0.4.8",
+    "mocha": "^1.21.5",
+    "sqlite3": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register --reporter spec --check-leaks test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomsbg/livedb-knex.git"
+  },
+  "keywords": [
+    "livedb",
+    "knex",
+    "sharejs"
+  ],
+  "author": "Blake Thomson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomsbg/livedb-knex/issues"
+  },
+  "homepage": "https://github.com/thomsbg/livedb-knex",
+  "dependencies": {
+    "bluebird": "^2.3.5"
+  }
+}
